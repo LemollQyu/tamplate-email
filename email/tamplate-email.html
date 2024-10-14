@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <title>Verifikasi Email</title>
+    <style>
+      /* font localnya */
+      @font-face {
+        font-family: "Nunito";
+        src: url("font-nunito.ttf") format("truetype");
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Nunito", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 353px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        height: 60vh;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #777;
+        margin-bottom: 20px;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 12px 30px;
+        font-size: 16px;
+        background-color: #53e3ac;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .button:hover {
+        background-color: #45c497;
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          width: 100%;
+        }
+
+        h1 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 12px;
+        }
+
+        .button {
+          padding: 10px 20px;
+          font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Halo</h1>
+      <p>Tolong klik tombol untuk verifikasi Email</p>
+      <a href="#" class="button">Verifikasi Email</a>
+
+      <!-- Kalo mau pake button -->
+      <!-- <button class="button">Verifikasi Email</button> -->
+    </div>
+  </body>
+</html>
